@@ -22,7 +22,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     handlers=[logging.FileHandler('log.txt'), logging.StreamHandler()],
                     level=logging.INFO)
 
-UPSTREAM_REPO = 'https://github.com/erotixe/Video-Encoder-BOT'
+UPSTREAM_REPO = 'https://github.com/darkhacker34/Video-Encoder-BOT'
 UPSTREAM_BRANCH = 'beta'
 
 if UPSTREAM_REPO is not None:
